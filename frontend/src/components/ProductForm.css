@@ -1,0 +1,35 @@
+/* ProductForm.css */
+
+.product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 350px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #fafbfc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.product-form input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.product-form button {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.product-form .error {
+  color: red;
+  text-align: center;
+}

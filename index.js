@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended : false}));
 const cors = require('cors');
 app.use(cors());
 //connection to mongo db
-mongoose.connect("mongodb+srv://hamna:hamna123@backenddb.hbp3kqh.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB") 
+mongoose.connect("mongodb+srv://username:password@backenddb.hbp3kqh.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB") 
 .then(()=> {
     console.log("mongo db connected");
 })

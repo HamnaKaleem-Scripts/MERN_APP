@@ -133,12 +133,6 @@ You can deploy this app on:
 
 ---
 
-## ✍️ Author
-
-- Name: *Your Name*
-- GitHub: [@yourusername](https://github.com/yourusername)
-
----
 
 ## 📄 License
 
